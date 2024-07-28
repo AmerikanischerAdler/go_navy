@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline:wght@400&display=swap');
+
+*{
+    font-family: Bungee Hairline;
+}
+
+header, footer {
+    width: 100vw;
+    background-color: #021D3B;
+}
+
+header {
+    position: fixed;
+    height: 7vh;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    width: 100px;
+    border: 1px solid #fff;
+    border-radius: 5px 5px;
+    text-align: center;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header ul li:hover {
+    background-color: #fff;
+}
+
+header ul li a:hover {
+    color: #021D3B;
+    font-weight: 900;
+}
+
+.contain-all {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+#title {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/usna_arial.jpeg);
+    background-size: 100vw auto;
+}
+
+#title h1 {
+    font-size: 200px;
+    color: #fff;
+    margin-top: -30px;
+}
+
+#title h3 {
+    color: #FBC42B;
+    margin-top: -100px;
+    background-color: #021D3B;
+}
+
+.contain {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #021D3B;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+.box h2 {
+    text-decoration: none;
+    border-radius: 5px 5px;
+    color: #FBC42B;
+}
+
+.box h2:hover {
+    box-shadow: 2px 2px;
+    cursor: pointer;
+}
+
+.box h2:active {
+    background-color: #011122;
+}
+
+.box h2 a {
+    text-decoration: none;
+    color: #FBC42B;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.info h3 {
+    margin-bottom: -10px;
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info ul li {
+    margin-left: -30px;
+}
+
+.info span {
+    color: #FBC42B;
+}
+
+.lst {
+    margin-bottom: -10px;
+}
+
+footer {
+    height: 10vh;
+}
+
