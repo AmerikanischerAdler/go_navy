@@ -86,10 +86,26 @@ header ul li a:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
 }
 
+.box:hover {
+    -webkit-transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 .box h2 {
     text-decoration: none;
     border-radius: 5px 5px;
     color: #FBC42B;
+}
+
+.box a {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .box h2:hover {
