@@ -1,2 +1,2 @@
 # go_navy
- Blog of my personal journey at USNA and beyond
+ Personal blog of journey at USNA and beyond
