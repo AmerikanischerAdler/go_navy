@@ -6,13 +6,13 @@ Personal blog of journey at USNA and beyond
 
 ## Installation
 
-Open Terminal and Clone Repository
+Open Terminal and Clone Repository:
 
 ```bash
 git clone https://github.com/AmerikanischerAdler/go_navy
 ```
 
-If python3 or python3.11 is not installed on your machine, run:
+If python3 is not installed on your machine, run:
 
 **MacOS:**
 
@@ -21,13 +21,6 @@ brew update
 brew install python3
 ``` 
 
-OR:
-
-```bash
-brew update 
-brew install python3.11
-```
-
 **TIP**: Be sure that homebrew is installed on your machine. If not, visit https://brew.sh to install.
 
 **Ubuntu:**
@@ -35,13 +28,6 @@ brew install python3.11
 ```bash
 sudo apt update 
 sudo apt install python3
-```
-
-OR: 
-
-```bash
-sudo apt update 
-sudo apt install python3.11
 ```
 
 ## Usage
@@ -66,15 +52,15 @@ If this doesn't work, try:
 python3.11 app.py
 ```
 
+**TIP**: You may need to install python3.11
+
 *This will spin up a local backend server*
 
 4) Open Web Browser to New Tab or Window
 
 5) Enter Server Address in Search Bar:
 
-You may be able to simply click this link:
-
-http://127.0.0.1:5000/home
+You may be able to simply click this link: http://127.0.0.1:5000/home
 
 **TIP**: Make sure to have "/home" at the end of your server address
 
