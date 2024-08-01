@@ -2,7 +2,7 @@
 
 ## Description
 
-Personal Blog of Journey at USNA and Beyond
+Personal Blog of Journey at USNA and Beyond...
 
 Includes 3 Phases of My Journey Thus Far:
 
@@ -19,6 +19,8 @@ Includes 3 Phases of My Journey Thus Far:
 3) My Application Journey
 * The USNA Application
 * Congressional Nomination Applications
+
+*In the Future, I Will Have Phases on "Life as a Midshipman" and "My Career in the Navy"*
 
 ## Installation
 
