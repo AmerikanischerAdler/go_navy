@@ -2,7 +2,23 @@
 
 ## Description
 
-Personal blog of journey at USNA and beyond
+Personal Blog of Journey at USNA and Beyond
+
+Includes 3 Phases of My Journey Thus Far:
+
+1) My Dreams & Goals
+* My Personal History
+* Key Influences to the Navy
+* Key Events Leading to the Navy
+
+2) My Summer Seminar Adventure
+* Meaningful Mentors
+* My Best Memories
+* Life-Changing Moments
+
+3) My Application Journey
+* The USNA Application
+* Congressional Nomination Applications
 
 ## Installation
 
