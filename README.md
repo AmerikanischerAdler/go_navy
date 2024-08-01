@@ -12,6 +12,38 @@ Open Terminal and Clone Repository
 git clone https://github.com/AmerikanischerAdler/go_navy
 ```
 
+If python3 or python3.11 is not installed on your machine, run:
+
+**MacOS:**
+
+```bash
+brew update 
+brew install python3
+``` 
+
+OR:
+
+```bash
+brew update 
+brew install python3.11
+```
+
+**TIP**: Be sure that homebrew is installed on your machine. If not, visit https://brew.sh to install.
+
+**Ubuntu:**
+
+```bash
+sudo apt update 
+sudo apt install python3
+```
+
+OR: 
+
+```bash
+sudo apt update 
+sudo apt install python3.11
+```
+
 ## Usage
 
 1) Open Terminal
@@ -36,13 +68,15 @@ python3.11 app.py
 
 *This will spin up a local backend server*
 
-4) Open Web Browser
+4) Open Web Browser to New Tab or Window
 
 5) Enter Server Address in Search Bar:
 
+You may be able to simply click this link:
+
 http://127.0.0.1:5000/home
 
-*TIP*: Make sure to have "/home" at the end of your server address
+**TIP**: Make sure to have "/home" at the end of your server address
 
 ## Inspiration
 
