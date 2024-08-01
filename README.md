@@ -21,7 +21,7 @@ brew update
 brew install python3
 ``` 
 
-**TIP**: Be sure that homebrew is installed on your machine. If not, visit https://brew.sh to install.
+**TIP**: For MacOS, be sure that homebrew is installed on your machine. If not, visit https://brew.sh to install.
 
 **Ubuntu:**
 
@@ -42,6 +42,8 @@ cd go_navy
 
 3) Start Flask App:
 
+*This will spin up a local backend server*
+
 ```bash
 python3 app.py
 ```
@@ -53,8 +55,6 @@ python3.11 app.py
 ```
 
 **TIP**: You may need to install python3.11
-
-*This will spin up a local backend server*
 
 4) Open Web Browser to New Tab or Window
 
