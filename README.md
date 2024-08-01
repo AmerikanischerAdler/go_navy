@@ -20,7 +20,7 @@ Includes 3 Phases of My Journey Thus Far:
 * The USNA Application
 * Congressional Nomination Applications
 
-*In the Future, I Will Have Phases on "Life as a Midshipman" and "My Career in the Navy"*
+*In the future (Lord willing), I will have phases on "Life as a Midshipman" and "My Career in the Navy"*
 
 ## Installation
 
