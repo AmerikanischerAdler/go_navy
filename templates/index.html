@@ -1,25 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Go Navy!</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../static/style.css">
-</head>
-<body>
-  <header>
-    <!--
-    <div id="logo">
-      <a href="#">
-        <img id="head_anchor" src="../static/images/anchor.png" alt="Navy Anchor">
-      </a>
-    </div>
-    -->
-    <ul>
-      <li><a href="#">About Me</a></li>
-    </ul>
-  </header>
+{% extends "base.html" %}
 
+{% block page %}Home{% endblock %}
+
+{% block style %}style{% endblock %}
+
+{% block content %}
   <div class="contain-all">
     <div id="title">
       <h1>Go Navy!</h1>
@@ -117,10 +102,5 @@
         </a>
       </div>
     </div>
-
-    <footer>
-      <div id="contact"></div>
-    </footer>
   </div>
-</body>
-</html>
+{% endblock %}

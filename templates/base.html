@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block page %}{% endblock %} - Go Navy!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/{% block style %}{% endblock %}.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline:wght@400&display=swap');
+    
+    *{
+        font-family: Bungee Hairline;
+    }
+    
+    header, footer {
+        width: 100%;
+        background-color: #021D3B;
+    }
+    
+    header {
+        position: fixed;
+        height: 55px;
+    }
+    
+    header ul {
+        list-style: none;
+    }
+    
+    header ul li {
+        width: 100px;
+        border: 1px solid #fff;
+        border-radius: 5px 5px;
+        text-align: center;
+    }
+    
+    header ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    header ul li:hover {
+        background-color: #fff;
+    }
+    
+    header ul li a:hover {
+        color: #021D3B;
+        font-weight: 900;
+    }
+
+    footer {
+        height: 75px;
+        margin-top: 25px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <!--
+    <div id="logo">
+      <a href="#">
+        <img id="head_anchor" src="../static/images/anchor.png" alt="Navy Anchor">
+      </a>
+    </div>
+    -->
+    <ul>
+      <li><a href="#">About Me</a></li>
+    </ul>
+  </header>
+
+  {% block content %}{% endblock %}
+
+  <footer>
+    <div id="contact"></div>
+  </footer>
+</body>
+</html>
