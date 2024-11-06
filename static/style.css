@@ -1,7 +1,7 @@
 .contain-all {
     display: flex;
     flex-direction: column;
-    gap: 5vh;
+    gap: 40px;
 }
 
 #title {
@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     background-image: url(./images/usna_arial.jpeg);
-    background-size: 100vw auto;
+    background-size: 100% auto;
 }
 
 #title h1 {
@@ -28,14 +28,14 @@
 }
 
 .contain {
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .box {
-    width: 30vw;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;

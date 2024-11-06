@@ -20,6 +20,9 @@
     header {
         position: fixed;
         height: 55px;
+        margin: 0;
+        padding: 0;
+        top: 0;
     }
     
     header ul {
@@ -47,6 +50,10 @@
         font-weight: 900;
     }
 
+    .content {
+        margin-top: 55px;
+    }
+
     footer {
         height: 75px;
         margin-top: 25px;
@@ -67,7 +74,9 @@
     </ul>
   </header>
 
-  {% block content %}{% endblock %}
+  <div class="content">
+    {% block content %}{% endblock %}
+  </div>
 
   <footer>
     <div id="contact"></div>
