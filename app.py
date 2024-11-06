@@ -1,5 +1,3 @@
-#!/opt/homebrew/bin/python3.11
-
 import requests
 from flask import Flask, render_template, request, redirect, session, url_for
 
