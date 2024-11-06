@@ -47,9 +47,9 @@ def kindergarten():
 def seals():
     return render_template('seals.html')
 
-@app.route('/nass')
-def nass():
-    return render_template('nass.html')
+@app.route('/sumsem')
+def sumsem():
+    return render_template('sumsem.html')
 
 # Student
 @app.route('/student')
