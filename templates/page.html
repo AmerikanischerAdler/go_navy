@@ -1,6 +1,22 @@
 {% extends "base.html" %}
 
-{% block style %}page{% endblock %}
+{% block istyle %}
+  {{ super() }}
+  <style>
+    h1 {
+        width: 100%;
+        font-size: 100px;
+        text-align: center;
+        letter-spacing: -10px;
+    }
+
+    h3 {
+      width: 100%;
+      font-size: 25px;
+      text-align: center;
+    }
+  </style>
+{% endblock %}
 
 {% block content %}
 
