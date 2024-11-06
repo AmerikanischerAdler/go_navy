@@ -25,6 +25,8 @@
 #title h3 {
     color: #FBC42B;
     margin-top: -100px;
+    padding: 5px 15px;
+    border-radius: 5px;
     background-color: #021D3B;
 }
 
